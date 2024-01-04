@@ -111,6 +111,7 @@ bool init(int argc, char **argv) {
   // Initialize N-body simulation
   Boids::initSimulation(N_FOR_VIS);
 
+
   updateCamera();
 
   initShaders(program);
